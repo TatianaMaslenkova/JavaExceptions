@@ -81,9 +81,9 @@ public class CheckData {
 
             }
         }
-        if (errorsMessages.length()==0) {
-            throw new InputDataException(errorsMessages.toString());
-        }
+        // if (errorsMessages.length()==0) {
+        //     throw new InputDataException(errorsMessages.toString());
+        // }
     }
 
     public String getLastName() {
